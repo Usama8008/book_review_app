@@ -13,8 +13,11 @@
     <body class="bg-light">
         <div class="container-fluid shadow-lg header">
             <div class="container">
-                <div class="d-flex justify-content-between">
-                    <h1 class="text-center"><a href="{{route('home')}}" class="h3 text-white text-decoration-none">Book Review App</a></h1>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/logo.png" alt="Book Browse Logo" style="height: 70px; margin-right: 10px;">
+                        <h1 class="text-center"><a href="{{route('home')}}" class="h3 text-white text-decoration-none">Book Browse</a></h1>
+                    </div>
                     <div class="d-flex align-items-center navigation">
                         @if (Auth::check())
                         <a href="{{route('account.profile')}}" class="text-white">Account</a> 
@@ -22,8 +25,9 @@
                         <a href="{{route('account.login')}}" class="text-white">Login</a>
                         <a href="{{route('account.register')}}" class="text-white ps-2">Register</a>
                         @endif
-                        
                     </div>
                 </div>
             </div>
         </div>
+    </body>
+</html>

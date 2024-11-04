@@ -3,7 +3,7 @@
         <div class="row">
             <!-- About Section -->
             <div class="col-md-4">
-                <h5 class="text-uppercase mb-4">About BookReviewApp</h5>
+                <h5 class="text-uppercase mb-4">About BookBrowseApp</h5>
                 <p>Discover insightful reviews of your favorite books. Join a community of book enthusiasts and contribute your thoughts and ratings. Your next read awaits!</p>
             </div>
 
@@ -33,7 +33,7 @@
         <!-- Social Media Links and Copyright -->
         <div class="row mt-4">
             <div class="col-md-6">
-                <p class="mb-0">© 2024 BookReviewApp. All rights reserved.</p>
+                <p class="mb-0">© 2024 BookBrowse. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-md-end">
                 <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
