@@ -60,7 +60,7 @@ class BookController extends Controller
 
             $manager = new ImageManager(Driver::class);
             $img = $manager->read(public_path('uploads/books/'.$imageName));
-            $img->resize(990);
+            $img->resize(990,1400);
             $img->save(public_path('uploads/books/thumb/'.$imageName));    
         }
             // upload book pdf here
@@ -138,7 +138,7 @@ class BookController extends Controller
             // Create a thumbnail for the image
             $manager = new ImageManager(Driver::class);
             $img = $manager->read(public_path('uploads/books/' . $imageName));
-            $img->resize(990);
+            $img->resize(990,1400);
             $img->save(public_path('uploads/books/thumb/' . $imageName));
         }
     
