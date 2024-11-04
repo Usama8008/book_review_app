@@ -27,7 +27,7 @@
                                 <p class="text-danger">{{$message}}</p>
                             @enderror
                         </div>
-                        <button class="btn btn-primary mt-2">Update</button>    
+                        <button class="btn btn-primary mt-2">Approve</button>    
                         <a href="{{route('reviews.index')}}" class="btn btn-secondary mt-2">Back</a>    
                     </form>                 
                     </div>
